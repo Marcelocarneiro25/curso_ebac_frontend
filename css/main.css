@@ -2,24 +2,61 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: aquamarine;
-}
-header .conteiner{
-    height: 80px;
-    background-color: cornflowerblue;
 }
 
+body > header {
+    height: 60px;
+    background-color: cornflowerblue;
+   
+
+}
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    color: beige;
+    padding: 16px;
+}
 
 header li{
     display: inline;
- 
 
+}
+
+header li a{
+    text-decoration: none;
+    color: chartreuse;
+    cursor: pointer;
+    font-size: 20px;
+   
+}
+header li a:hover{
+    color:#000);
+    transition: 2s;
+   
 }
 
 .conteiner{
     width: 1366px;
     margin: 0 auto;
     
+}
+section{
+    background-color: aquamarine;
+    padding: 16px;
+}
+
+section header{
+    color: red;
+}
+
+
+section h2,
+.articlos article{
+    margin-bottom: 16px;
 }
 .articlos {
     display: flex;
@@ -39,12 +76,49 @@ header li{
 .articlos article h3{
     width: 300px;
     text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
 }
 .articlos article p{
     width: 350px;
     text-align: justify;
 }
-footer{
-    height: 300px;
-    background-color: blue;
+.articlos article a{
+    display: inline-block;
+
+    background-color: chartreuse;
+    padding: 0;
+    color: #000;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
 }
+.articlos article a:hover{
+    transform: scale(1.2);
+}
+footer{
+    height: 120px;
+    background-color: cornflowerblue;
+}
+
+footer .rodape{
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .menu-inferior a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: #000;
+    cursor: pointer;
+    font-size: 22px;
+}
+footer .contato{
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+
+
