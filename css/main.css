@@ -1,4 +1,50 @@
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: aquamarine;
+}
+header .conteiner{
+    height: 80px;
+    background-color: cornflowerblue;
+}
+
+
+header li{
+    display: inline;
+ 
+
+}
+
+.conteiner{
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+.articlos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.articlos article img{
+    
+    height: 170px;
+}
+
+.articlos article{
+    width: 30%;
+}
+
+.articlos article h3{
+    width: 300px;
+    text-align: center;
+}
+.articlos article p{
+    width: 350px;
+    text-align: justify;
+}
+footer{
+    height: 300px;
+    background-color: blue;
 }
