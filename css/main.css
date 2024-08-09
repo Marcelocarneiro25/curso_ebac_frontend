@@ -31,6 +31,8 @@ header li a{
     color: chartreuse;
     cursor: pointer;
     font-size: 20px;
+    
+   
    
 }
 header li a:hover{
@@ -40,7 +42,7 @@ header li a:hover{
 }
 
 .conteiner{
-    width: 1366px;
+    width: 1300px;
     margin: 0 auto;
     
 }
@@ -78,15 +80,17 @@ section h2,
     text-align: center;
     margin-top: 8px;
     margin-bottom: 8px;
+    padding-top: 6px;
 
 }
 .articlos article p{
     width: 350px;
     text-align: justify;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .articlos article a{
     display: inline-block;
-
     background-color: chartreuse;
     padding: 0;
     color: #000;
@@ -116,7 +120,7 @@ footer .menu-inferior a{
     font-size: 22px;
 }
 footer .contato{
-    margin-right: 50px;
+    margin-right: 100px;
     font-size: 20px;
 }
 
