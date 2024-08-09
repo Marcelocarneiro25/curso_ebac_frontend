@@ -7,7 +7,6 @@
 body > header {
     height: 60px;
     background-color: cornflowerblue;
-   
 
 }
 header .conteiner{
@@ -31,14 +30,10 @@ header li a{
     color: chartreuse;
     cursor: pointer;
     font-size: 20px;
-    
-   
-   
 }
 header li a:hover{
-    color:#000);
+    color:#000;
     transition: 2s;
-   
 }
 
 .conteiner{
